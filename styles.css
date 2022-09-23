@@ -28,4 +28,5 @@ table td{
 }
 table th{
     border:3px solid red;
+    background-color: #550000;
 }
