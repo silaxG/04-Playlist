@@ -1,7 +1,7 @@
 /*COMENTARIO EN CSS*/
 /*atributos de la etiqueta html*/
 body{
-    background-color: #472215;
+    background-image:url(/assets/img/fondo.jpg);
     color: white;
     text-align: center;
     font-size:1.5em;
@@ -17,7 +17,7 @@ img{
 }
 /*tabla*/
 table{
-    background-color: #002B31;
+    background-image: url(/assets/img/tabla.png);
     border: 10px red;
     border-style: dashed solid;/*bordes de la tabla: TAMAÑO PX-TIPO-COLOR*/
     border-collapse:collapse;/*ELIMINA EL ESPACIO ENTRE LOS BORDES*/
@@ -29,4 +29,8 @@ table td{
 table th{
     border:3px solid red;
     background-color: #550000;
+}
+#Logo{
+    width:150px;
+    height:150px;
 }
